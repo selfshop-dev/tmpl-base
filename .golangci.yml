@@ -1,0 +1,34 @@
+version: "2"
+
+run:
+  timeout: 5m
+  modules-download-mode: readonly
+
+linters:
+  default: none
+  enable:
+    - gochecknoglobals
+    - exhaustive
+    - perfsprint
+    - whitespace
+    - contextcheck
+    - wastedassign
+    - noctx
+    - govet
+    - gosec
+    - godot
+    - testifylint
+    - staticcheck
+    - ineffassign
+    - errcheck
+    - prealloc
+    - misspell
+    - unused
+    - nilerr
+    - wrapcheck
+    - errorlint
+    - unconvert
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
