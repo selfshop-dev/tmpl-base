@@ -3,6 +3,8 @@
 [![CI](https://github.com/selfshop-dev/tmpl-base/actions/workflows/ci.yml/badge.svg)](https://github.com/selfshop-dev/tmpl-base/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/selfshop-dev/tmpl-base/branch/main/graph/badge.svg)](https://codecov.io/gh/selfshop-dev/tmpl-base)
 [![Go Report Card](https://goreportcard.com/badge/github.com/selfshop-dev/tmpl-base)](https://goreportcard.com/report/github.com/selfshop-dev/tmpl-base)
+![Go version](https://img.shields.io/github/go-mod/go-version/selfshop-dev/tmpl-base)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Шаблонный репозиторий для Go-библиотек в организации [selfshop-dev](https://github.com/selfshop-dev).
 
