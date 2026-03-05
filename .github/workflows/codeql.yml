@@ -1,0 +1,19 @@
+name: CodeQL
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 12 * * 4'
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+permissions:
+  contents: read
+  actions: read
+  security-events: write
+
+jobs:
+  codeql:
+    uses: selfshop-dev/lib-default-workflows/.github/workflows/codeql.yml@main
