@@ -1,0 +1,13 @@
+name: Block non-dev PRs to main
+
+on:
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  block:
+    uses: selfshop-dev/lib-default-workflows/.github/workflows/block-non-dev-to-main.yml@main
