@@ -1,11 +1,11 @@
-package template_test
+package demo_test
 
 import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
 
-	template "github.com/selfshop-dev/tmpl-base"
+	demo "github.com/selfshop-dev/tmpl-base"
 )
 
 func TestSum(t *testing.T) {
@@ -28,7 +28,7 @@ func TestSum(t *testing.T) {
 		tc := tc
 		t.Run(tc.name, func(t *testing.T) {
 			t.Parallel()
-			assert.Equal(t, tc.want, template.Sum(tc.a, tc.b))
+			assert.Equal(t, tc.want, demo.Sum(tc.a, tc.b))
 		})
 	}
 }
